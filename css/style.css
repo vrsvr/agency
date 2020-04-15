@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    color: #8d8e90;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url("../image/intro-bg.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+span {
+    color: #fba419;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Nav */
+
+.nav__link {
+    font-weight: 700;
+    margin-right: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__link:hover {
+    color: #fba419;
+}
+
+
+/* Intro */
+
+.intro {
+    width: 556px;
+    margin: 12%;
+}
+
+.intro__title {
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.intro__text {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+/* Button */
+
+.btn {
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 18px;
+    margin-top: 45px;
+    background-color: #fba419;
+    border: 2px solid #fba419;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s linear, color 0.2s linear, border 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #fba419;
+    border: 2px solid #fba419;
+}
