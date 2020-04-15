@@ -3,6 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 15px;
     color: #fff;
+    line-height: 1.5;
 }
 
 *,
@@ -83,16 +84,20 @@ span {
 /* Intro */
 
 .intro {
-    width: 556px;
-    margin: 12%;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .intro__title {
     font-weight: 900;
     font-size: 64px;
+    line-height: 1;
 }
 
 .intro__text {
+    margin-top: 15px;
     font-weight: 300;
     font-size: 24px;
 }
@@ -119,4 +124,62 @@ span {
     background-color: #fff;
     color: #fba419;
     border: 2px solid #fba419;
+}
+
+
+/* Wefo */
+
+.wefo {
+    display: flex;
+    margin: 75px 0;
+}
+
+.wefo__item {
+    width: 50%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.wefo__title {
+    color: #000;
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.wefo__quote {
+    display: flex;
+    color: #80858b;
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.wefo__quote::before {
+    content: url("../image/quote.png");
+    display: block;
+    margin-right: 10px;
+}
+
+.wefo__text {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wefo__img {}
+
+.wefo__imgtext {
+    position: absolute;
+    bottom: 90px;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 75px;
 }
