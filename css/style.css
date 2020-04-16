@@ -357,6 +357,7 @@ li:last-child {
 
 .weha {
     display: flex;
+    margin-top: 75px;
 }
 
 .weha__col1 {
@@ -476,8 +477,6 @@ li:last-child {
 
 /* Reviews */
 
-.reviews {}
-
 .reviews__inner {
     display: flex;
     align-items: center;
@@ -518,4 +517,111 @@ li:last-child {
     font-weight: 900;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    margin-top: 80px;
+}
+
+.contacts__inner {
+    width: 50%;
+}
+
+.banner__content {
+    padding: 0 70px 0 130px;
+}
+
+.bg-img {
+    display: flex;
+    align-items: center;
+    background: url("../image/contacts/contacts-bg.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.banner__title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.banner__text {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.bg-color {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.contacts__content {
+    margin: 90px 0;
+    color: #000;
+    padding: 0 130px 0 70px;
+}
+
+.contacts__text {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.communication__method {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.icon {
+    position: relative;
+}
+
+.abc {
+    position: absolute;
+    margin-left: 70px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s linear;
+}
+
+a:hover {
+    color: #fba419;
+}
+
+.fab {
+    margin-right: 25px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
 }
