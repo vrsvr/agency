@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="header__inner">
                     <div class="header__logo"><img src="image/logo.png" alt=""></div>
-                    <div class="nav">
+                    <nav class="nav" id="mob-menu">
                         <a class="nav__link" href="">Home</a>
                         <a class="nav__link" href="">About Us</a>
                         <a class="nav__link" href="">Team</a>
@@ -29,7 +29,10 @@
                         <a class="nav__link" href="">Work</a>
                         <a class="nav__link" href="#"><i class="fas fa-search"></i></a>
                         <a class="nav__link" href="#"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+                    </nav>
+                    <button class="nav-toggle" id="nav-toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button>
                 </div>
             </div>
         </header>
@@ -38,7 +41,7 @@
 
         <div class="container">
             <div class="intro">
-                <div class="intro__title">Creative idea for <span>Professionals</span></div>
+                <div class="main__title">Creative idea for <span>Professionals</span></div>
                 <div class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur.</div>
                 <button class="btn" href="">Read More</button>
             </div>
@@ -48,7 +51,7 @@
     <div class="container">
         <div class="wefo">
             <div class="wefo__item">
-                <div class="wefo__title">Welcome <span>for Professionals</span></div>
+                <div class="main__title black">Welcome <span>for Professionals</span></div>
                 <div class="wefo__quote"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
                 <div class="wefo__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore
                     eu fugiat nulla eu fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit, reiciendis id asperiores ad eius harum dolorem accusantium explicabo laboriosam consequatur. Quas ipsum ea mollitia voluptatem architecto
@@ -67,7 +70,7 @@
         <div class="container">
             <div class="service__main">
                 <div class="service__inner">
-                    <div class="service__title">Our Company <span>great Services.</span></div>
+                    <div class="main__title">Our Company <span>great Services.</span></div>
                     <div class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat.</div>
                 </div>
                 <div class="service__inner">
@@ -124,7 +127,7 @@
                 </div>
             </div>
             <div class="creative__inner">
-                <div class="wefo__title">Welcome <span>for Professionals</span></div>
+                <div class="main__title black">Welcome <span>for Professionals</span></div>
                 <div class="wefo__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore
                     eu fugiat nulla eu fugiat.
                 </div>
@@ -142,7 +145,7 @@
     <div class="team">
         <div class="container">
             <div class="team__inner">
-                <div class="team__title">Business <span>Team</span></div>
+                <div class="main__title">Business <span>Team</span></div>
                 <div class="team__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto deleniti nesciunt dolorum dolores nisi a quidem totam reiciendis voluptatem sit, excepturi, tempore placeat enim recusandae omnis ipsum rerum! Illo, hic?</div>
                 <div class="team__image">
                     <div><img src="image/team/1.jpg" alt=""></div>
@@ -158,8 +161,8 @@
         <div class="weha">
             <div class="weha__col1">
                 <div class="weha__item">
-                    <div><img src="image/weha/1.jpg" alt=""></div>
-                    <div class="weha__title">We have <span>Served</span></div>
+                    <div><img class="weha__img" src="image/weha/1.jpg" alt=""></div>
+                    <div class="main__title black">We have <span>Served</span></div>
                 </div>
                 <div class="weha__item">
                     <img class="weha__img" src="image/weha/2.jpg" alt="">
@@ -177,8 +180,10 @@
     </div>
 
     <div class="container">
-        <div class="case__title">Case <span>studies</span></div>
-        <div class="case__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore praesentium quas beatae repellendus minima ullam ab! Aut tenetur nulla impedit doloremque laboriosam porro sed sequi distinctio aliquam unde! Aut?</div>
+        <div class="case__maintitle">
+            <div class="main__title black">Case <span>studies</span></div>
+            <div class="case__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore praesentium quas beatae repellendus minima ullam ab! Aut tenetur nulla impedit doloremque laboriosam porro sed sequi distinctio aliquam unde! Aut?</div>
+        </div>
     </div>
 
     <div class="card">
@@ -221,7 +226,7 @@
     <div class="container">
         <div class="reviews">
             <div class="reviews__inner">
-                <div class="reviews__title">Client <span>testimonials</span></div>
+                <div class="main__title black">Client <span>testimonials</span></div>
                 <div class="reviews__photo">
                     <img src="image/team/2.jpg" alt="">
                 </div>
@@ -250,7 +255,7 @@
     <div class="contacts">
         <div class="contacts__inner bg-img">
             <div class="banner__content">
-                <div class="banner__title">Get <br><span>in Touch</span></div>
+                <div class="main__title">Get <br><span>in Touch</span></div>
                 <div class="banner__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae ex, reprehenderit impedit expedita.</div>
             </div>
         </div>
@@ -293,6 +298,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/js/app.js"></script>
+
 </body>
 
 <footer>
