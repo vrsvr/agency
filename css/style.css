@@ -23,7 +23,10 @@ h6 {
 
 hr {
     margin: 0;
-    color: #8d8e90;
+    border: 0;
+    background-color: #fff;
+    height: 1px;
+    opacity: 0.4;
 }
 
 .container {
@@ -913,7 +916,93 @@ a:hover {
 
 @media screen and (max-width: 720px) {
     .intro {
+        width: 80%;
+    }
+    .team__img {
+        width: auto;
+        height: auto;
+    }
+    .weha {
+        text-align: center;
+    }
+    .weha__item {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin: 0;
+    }
+    .weha__img {
+        margin-right: 0;
         width: 100%;
-        margin-right: 60px;
+        height: auto;
+    }
+    .weha__imgnone {
+        display: none;
+    }
+    .contacts {
+        display: block;
+    }
+    .contacts__inner {
+        width: 100%;
+    }
+    .banner__content {
+        padding: 250px 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 0;
+    }
+    .nav-toggle {
+        right: 20px;
+    }
+    .intro {
+        top: 55%;
+    }
+    .main__title {
+        font-size: 30px;
+    }
+    .intro__text {
+        font-size: 17px;
+    }
+    .btn {
+        font-size: 11px;
+    }
+    .team__img {
+        width: 100%;
+    }
+    .wefo__imgtext {
+        bottom: 50px;
+        font-size: 10px;
+        margin: 0 10px;
+    }
+    .service__sectext {
+        font-size: 11px;
+    }
+    .wefo__quote {
+        font-size: 17px;
+    }
+    .wefo__text {
+        font-size: 15px;
+    }
+    .service__text {
+        font-size: 15px;
+    }
+    .creative {
+        margin: 75px auto;
+    }
+    .creative__innerr {
+        flex-wrap: wrap;
+    }
+    .creative__item {
+        padding: 0;
+    }
+    .card__image {
+        width: 100%;
+        height: auto;
+    }
+    .card__content {
+        top: 10%;
+        padding: 0 20px;
     }
 }
